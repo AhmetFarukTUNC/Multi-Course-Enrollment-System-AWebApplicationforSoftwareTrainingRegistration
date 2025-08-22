@@ -1,10 +1,162 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">BTK Akademi</h1>
-    <p>
-        <a class="btn btn-primary" asp-controller="Course" asp-action="Apply">Apply</a>
-    </p>
+<div class="hero-bg">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="glass-card text-center p-5">
+                    <span class="badge rounded-pill px-3 py-2 mb-3 badge-soft">Learn. Build. Grow.</span>
+                    <h1 class="display-4 fw-bold mb-3 gradient-text">Tunc Akademi</h1>
+                    <p class="lead mb-4">
+                        Sıfırdan uzmanlığa giden yolculuğunda; özenle tasarlanmış eğitimler, pratik projeler ve güçlü bir topluluk.
+                    </p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a class="btn btn-lg btn-primary btn-cta shadow-soft" asp-controller="Course" asp-action="Apply">
+                            Başvur
+                        </a>
+                        <a class="btn btn-lg btn-outline-light btn-ghost" asp-controller="Course" asp-action="Index">
+                            Kursiyerleri Gör
+                        </a>
+                    </div>
+
+                    <div class="row g-4 mt-5 text-start">
+                        <div class="col-md-4">
+                            <div class="feature-card h-100 p-4">
+                                <div class="feature-icon mb-3">🎯</div>
+                                <h5 class="mb-2">Hedef Odaklı İçerik</h5>
+                                <p class="mb-0">Kariyerine doğrudan katkı sağlayan, endüstriyle uyumlu müfredat.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature-card h-100 p-4">
+                                <div class="feature-icon mb-3">⚡</div>
+                                <h5 class="mb-2">Uygulamalı Projeler</h5>
+                                <p class="mb-0">Gerçek dünya senaryolarıyla hızla portföy oluştur.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature-card h-100 p-4">
+                                <div class="feature-icon mb-3">🤝</div>
+                                <h5 class="mb-2">Mentorluk & Topluluk</h5>
+                                <p class="mb-0">Deneyimli mentorlar ve aktif bir öğrenme topluluğu.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats row g-3 mt-4">
+                        <div class="col-6 col-md-3">
+                            <div class="stat-box p-3">
+                                <div class="stat-number">50K+</div>
+                                <div class="stat-label">Öğrenci</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-box p-3">
+                                <div class="stat-number">120+</div>
+                                <div class="stat-label">Eğitim</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-box p-3">
+                                <div class="stat-number">95%</div>
+                                <div class="stat-label">Memnuniyet</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-box p-3">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Erişim</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+@section Styles {
+    <style>
+        /* Arka plan */
+        .hero-bg {
+            min-height: calc(100vh - 120px);
+            background: radial-gradient(1200px 600px at 10% 10%, rgba(91,134,229,.15), transparent 60%), radial-gradient(1000px 500px at 90% 20%, rgba(131,96,195,.15), transparent 60%), linear-gradient(135deg, #0f172a, #111827 60%, #0b1220);
+            display: flex;
+            align-items: center;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg,#93c5fd 0%, #a78bfa 50%, #f472b6 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .glass-card {
+            background: rgba(0,0,0,0.4); /* Daha koyu arka plan */
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 24px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,.35);
+        }
+
+        .badge-soft {
+            background: rgba(147,197,253,.15);
+            color: #fff; /* Daha görünür */
+            border: 1px solid rgba(147,197,253,.3);
+        }
+
+        .lead {
+            color: rgba(255,255,255,0.85);
+        }
+
+        .feature-card {
+            background: rgba(255,255,255,0.08);
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+            .feature-card h5, .feature-card p {
+                color: #fff;
+            }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: #fef3c7;
+        }
+
+        .btn-cta {
+            padding: .9rem 1.6rem;
+            border-radius: 14px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .btn-ghost {
+            padding: .9rem 1.6rem;
+            border-radius: 14px;
+            color: #fff;
+            border: 1px solid rgba(255,255,255,.3);
+        }
+
+        .stat-box {
+            background: rgba(255,255,255,0.05);
+            border-radius: 14px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .stat-label {
+            font-size: .9rem;
+            color: rgba(255,255,255,0.7);
+        }
+    </style>
+}

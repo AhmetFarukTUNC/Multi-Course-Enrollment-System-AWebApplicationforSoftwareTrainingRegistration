@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atunc\\source\\repos\\BTKAKADEMİ\\BTKAKADEMİ\\BTKAKADEMİ.csproj": {}
+    "C:\\Users\\atunc\\source\\repos\\Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration\\BTKAKADEMİ\\BTKAKADEMİ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atunc\\source\\repos\\BTKAKADEMİ\\BTKAKADEMİ\\BTKAKADEMİ.csproj": {
+    "C:\\Users\\atunc\\source\\repos\\Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration\\BTKAKADEMİ\\BTKAKADEMİ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atunc\\source\\repos\\BTKAKADEMİ\\BTKAKADEMİ\\BTKAKADEMİ.csproj",
+        "projectUniqueName": "C:\\Users\\atunc\\source\\repos\\Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration\\BTKAKADEMİ\\BTKAKADEMİ.csproj",
         "projectName": "BTKAKADEMİ",
-        "projectPath": "C:\\Users\\atunc\\source\\repos\\BTKAKADEMİ\\BTKAKADEMİ\\BTKAKADEMİ.csproj",
+        "projectPath": "C:\\Users\\atunc\\source\\repos\\Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration\\BTKAKADEMİ\\BTKAKADEMİ.csproj",
         "packagesPath": "C:\\Users\\atunc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atunc\\source\\repos\\BTKAKADEMİ\\BTKAKADEMİ\\obj\\",
+        "outputPath": "C:\\Users\\atunc\\source\\repos\\Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration\\BTKAKADEMİ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atunc\\AppData\\Roaming\\NuGet\\NuGet.Config",
