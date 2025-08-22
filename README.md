@@ -72,3 +72,11 @@ The Multi-Course Enrollment System exemplifies the practical application of ASP.
 By using in-memory data storage, I was able to focus on learning MVC fundamentals without the overhead of database setup.
 
 This project has strengthened my ability to build scalable and maintainable web applications, preparing me for real-world software development challenges.
+
+## PROJECT IMAGES : 
+
+![Screenshot](https://github.com/AhmetFarukTUNC/Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration/blob/main/1.png)
+![Screenshot](https://github.com/AhmetFarukTUNC/Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration/blob/main/2.png)
+![Screenshot](https://github.com/AhmetFarukTUNC/Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration/blob/main/3.png)
+![Screenshot](https://github.com/AhmetFarukTUNC/Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration/blob/main/4.png)
+![Screenshot](https://github.com/AhmetFarukTUNC/Multi-Course-Enrollment-System-AWebApplicationforSoftwareTrainingRegistration/blob/main/5.png)
